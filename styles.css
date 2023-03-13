@@ -1,0 +1,72 @@
+*,
+*:before, 
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.2)), url(img/office-implements-black-table.jpg) ;
+    background-size: cover;
+    
+
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.container {
+    position: absolute;
+    width: 50%;
+    min-width: 580px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    padding: 50px 10px;
+    border-radius: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    width: 90px;
+    font-weight: 600;
+    color: #2b9de2;
+    padding: 20px 0;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #202020;
+    font-size: 28px;
+}
+
+button {
+    width: 160px;
+    padding: 15px 0;
+    border-radius: 5px;
+    background-color: #2b9de2;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0;
+    outline: none;
+}
+
+p {
+    font-weight: 400;
+}
